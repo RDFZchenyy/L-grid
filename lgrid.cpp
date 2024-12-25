@@ -254,7 +254,7 @@ int main(){
         else computerMove();
         gameStatus.whosTurn^=1;
         checkStatus();
-        std::cout<<'[+]'<<' '<<"block count as follows: "<<blockValidCount[0]<<' '<<blockValidCount[1]<<'\n';
+        std::cout<<"[+]"<<' '<<"block count as follows: "<<blockValidCount[0]<<' '<<blockValidCount[1]<<'\n';
     }
     std::cout<<"Game ends."<<'\n';
     if(!gameStatus.whosWin) std::cout<<"Computer win this game."<<'\n';
